@@ -49,6 +49,8 @@ momentum = .9
 wd = 5e-4
 b_s = 128
 w_mult= args.w
+lam2 = args.lam2
+lam = args.lam
 
 
 PATH = 'models/i/'
@@ -70,6 +72,8 @@ wandb.config.dataset = args.dataset
 wandb.config.aug = args.aug
 wandb.config.bm = args.bm
 wandb.config.load = args.load
+wandb.config.lam2 = args.lam2
+wandb.config.lam = args.lam
 
 num_class = -1
 
